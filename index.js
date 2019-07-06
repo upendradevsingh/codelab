@@ -27,6 +27,7 @@ app.get('/', (req, res) => {
     `);
 });
 
+// plugged in a static server
 app.use(express.static('public'));
 
 app.listen(port, (err) => {

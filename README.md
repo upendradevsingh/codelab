@@ -1,9 +1,9 @@
 # codelab
 Code lab / a simple e-commerce project
 
-### Project Set up and installation
+## Project Set up and installation
 
-#### setup express app
+### Setup a express application
 const express = require('express');
 const app = express();
 const port = 3000;
