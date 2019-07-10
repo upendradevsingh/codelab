@@ -3,6 +3,23 @@
   "version": 2,
   "public": true,
   "builds": [
-    { "src": "index.js", "use": "@now/node-server" }
+    {
+      "src": "index.js",
+      "use": "@now/node-server"
+    },
+    {
+      "src": "public/**",
+      "use": "@now/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/css/(.*)",
+      "dest": "/public/css/$1"
+    },
+    {
+      "src": "/dist/(.*)",
+      "dest": "/public/dist/$1"
+    }
   ]
 }
