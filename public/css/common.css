@@ -1,6 +1,7 @@
 /* imports */
 
 @import "../css/card.css";
+@import "../dist/main.css";
 
 /* Colors */
 :root {
