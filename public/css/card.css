@@ -5,7 +5,7 @@
   height: 0;
   padding-bottom: 66.66667%;
   box-shadow: 0px 4px 5px #ccc;
-  background-color: #f7f7f7;
+  background-color: #f5f5f5;
 }
 .card .content {
   width: 100%;
@@ -18,8 +18,7 @@
   top: 50%;
   text-align: center;
   width: 100%;
-  font-size: 2rem;
   display: block;
   text-decoration: none;
-  color: inherit;
+  color: #666;
 }

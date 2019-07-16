@@ -8,11 +8,23 @@
       "use": "@now/node-server"
     },
     {
+      "src": "app/plugins/**/*",
+      "use": "@now/node-server"
+    },
+    {
       "src": "public/**",
       "use": "@now/static"
     }
   ],
   "routes": [
+    {
+      "src": "/listing",
+      "dest": "app/plugins/listing"
+    },
+    {
+      "src": "/all-products",
+      "dest": "app/plugins/listing"
+    },
     {
       "src": "/css/(.*)",
       "dest": "/public/css/$1"
